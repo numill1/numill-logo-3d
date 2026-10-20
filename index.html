@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<title>Numill — 3D Logo</title>
+<link rel="icon" href="./favicon.png">
+<style>html,body{color:#dff;touch-action:none;-webkit-user-select:none;user-select:none;background:#05070a;height:100%;margin:0;font-family:-apple-system,system-ui,Segoe UI,Roboto,sans-serif;overflow:hidden}canvas{display:block}#ui{top:max(12px,env(safe-area-inset-top));z-index:5;flex-wrap:wrap;justify-content:center;gap:8px;display:flex;position:fixed;left:50%;transform:translate(-50%)}#ui button{-webkit-backdrop-filter:blur(8px);color:#dffcff;cursor:pointer;background:#1428328c;border:1px solid #5adce659;border-radius:999px;padding:9px 15px;font-size:14px}#ui button.on{color:#021;background:linear-gradient(90deg,#2fd39a,#3a8dff);border-color:#0000;font-weight:600}#title{left:16px;bottom:max(14px,env(safe-area-inset-bottom));opacity:.6;letter-spacing:.08em;font-size:13px;position:fixed}#help{right:16px;bottom:max(14px,env(safe-area-inset-bottom));opacity:.65;text-align:right;max-width:60vw;font-size:12px;position:fixed}#joy{z-index:6;touch-action:none;background:#14323c40;border:1px solid #78e6f066;border-radius:50%;width:120px;height:120px;display:none;position:fixed;bottom:70px;left:28px}#knob{background:linear-gradient(135deg,#2fd39a,#3a8dff);border-radius:50%;width:40px;height:40px;position:absolute;top:40px;left:40px;box-shadow:0 0 18px #3ad0ff}#thr{z-index:6;flex-direction:column;gap:10px;display:none;position:fixed;bottom:80px;right:24px}#thr button{color:#dff;background:#1428328c;border:1px solid #5adce666;border-radius:50%;width:58px;height:58px;font-size:22px}</style>  <script type="module" crossorigin src="./assets/index-D5QEBPis.js"></script>
+</head><body>
+<div id="ui">
+  <button id="bFly">✈ Fly mode</button>
+  <button id="bAuto">⟳ Auto-rotate</button>
+  <button id="bReset">⌂ Reset view</button>
+  <button id="bTilt" style="display:none">📱 Tilt steering</button>
+</div>
+<div id="joy"><div id="knob"></div></div>
+<div id="thr"><button id="tUp">＋</button><button id="tDn">－</button></div>
+<div id="title">NUMILL</div>
+<div id="help"></div>
+</body></html>
